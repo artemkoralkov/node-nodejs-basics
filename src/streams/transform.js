@@ -10,7 +10,8 @@ export const transform = async () => {
                 .toString()
                 .split('')
                 .reverse()
-                .join('')
+                .join('') + '\n'
+                
             );
         }
     });
